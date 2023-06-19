@@ -11,9 +11,9 @@ body{
 }
 
 img{
-    width: 60px;
+    width: 40px;
     position: absolute;
-    left:50%;
+    left:45%;
     transform:translateX(-50);
     top: 80px;
     z-index: 2;
@@ -34,4 +34,27 @@ img{
     font-size: 29px;
     font-weight: bold;
    text-shadow: 1px;
+}
+
+.twelve{
+    top: 12px;
+    left: 49%;
+    transform: translateX(-50%);
+}
+.three{
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.six{
+    bottom: 12px;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.nine{
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
 }
