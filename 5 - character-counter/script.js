@@ -8,4 +8,8 @@ textareaEl.addEventListener("keyup", ()=>{
 function updateCounter(){
     totalCounterEl.innerText= textareaEl.value.length;
     remainingCounterEl.innerText= textareaEl.value.length  - 60;
+
+    // remainingCounterEl.innerText=  textareaEl.getAttribute(maxLength)- textareaEl.value.length;
+    
+
 }
