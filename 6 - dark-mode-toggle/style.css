@@ -6,6 +6,10 @@ body{
     align-items: center;
     transition: .4s;
 }
+h1{
+    position: absolute;
+    top:40px;
+}
 .input{
     visibility: hidden;
 }
@@ -14,7 +18,7 @@ body{
     position: absolute;
     width: 80px;
     height: 40px;
-    background-color: lightgray;
+    background-color:black;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -28,7 +32,9 @@ body{
     left: 3px;
     animation: toggleOff 0.2s linear forwards;
 
+    
 }
+
 .input:checked + .label{
     background-color: white;
 }
