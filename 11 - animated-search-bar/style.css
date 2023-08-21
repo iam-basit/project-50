@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(198, 226, 251);
+}
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .2),-5px -5px 10px rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    position: relative;
+    margin: 10px;
+    transition: width .9s;
+}
+.magnifier{
+    width: 30px;
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+.mic{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    transition: width 0.5s;
+    transition-delay: .5s;
+}
+
+.input{
+    background:transparent;
+    border: none;
+    margin: 10px 50px;
+    width: 100%;
+    outline: none;
+    color: rgb(100,100, 100);
+    transition: width 0.5s;
+    transition-delay: .5s;
+}
+.active.search-bar-container{
+    width: 50px;
+}
+.active .input{
+    width: 0;
+}
+.active .mic {
+    width: 0;
+}
+.active .magnifier{
+    align-items: center;
+}
