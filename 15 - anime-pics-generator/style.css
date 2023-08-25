@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right,lightblue,rgb(76, 215, 76));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anime-img{
+    height: 200px;
+    width: 300px;
+}
+
+.container{
+  
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 9px 9px 8px rgba(0,0,0,.4);
+    /* padding: 10px; */
+}
